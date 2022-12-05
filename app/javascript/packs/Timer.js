@@ -30,4 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
       <Timer />,
       document.getElementById('timer'),
     )
+    setInterval(Timer, 1000) 
   })
+
