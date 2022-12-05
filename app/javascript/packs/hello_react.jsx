@@ -6,7 +6,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 
-function Hello (props) {
+function Hello () {
   return(
   <div></div>
   )
