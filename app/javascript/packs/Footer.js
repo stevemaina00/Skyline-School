@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../packs/App.css'
+
 
 function Footer(){
   const myStyle = {
@@ -20,14 +19,7 @@ function Footer(){
   justifyContent: "space-around",
   fontWeight: "bold"
   }
-  const copy = {
-    color: "#FFFFFF",
-    marginTop: "-30px",
-    marginLeft: "450px",
-    fontfamily: 'Poppins',
-    fontWeight: "bold"
-
-  }
+  
   return (
     <div>
     <div style={myStyle} className='footer'>
@@ -51,7 +43,7 @@ function Footer(){
       <p>Forums</p>
     </div>
   </div>
-  <p style={copy} className='copy'>@All rights deserved,terms and condition applied.</p>
+  <p className='copy'>@All rights deserved,terms and condition applied.</p>
   </div>
       
   )
