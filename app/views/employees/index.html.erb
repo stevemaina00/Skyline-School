@@ -28,16 +28,15 @@
       <%# <td><%= link_to 'Show', employee%></td>
     </p>
   <% end %>
-    <div id="footer">
-    <%= javascript_pack_tag 'Footer' %></div>   
-</div>
+
 
 
 <%= link_to "New employee", new_employee_path, class:"btn btn-secondary" %>
 <%else%>
 <h1>Welcome Aboard!&#128512;</h1>
-<%end%>
-
    <div id="footer">
     <%= javascript_pack_tag 'Footer' %></div>  
  
+<%end%>
+
+

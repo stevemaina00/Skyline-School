@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function Timer() {
+  const myStyle={
+    color:"lightgreen"
+  }
   
   const currentTime = new Date().getHours();
   let greetingText = "";
@@ -17,7 +20,7 @@ const time = current.toLocaleTimeString("en-US");
   }
   return (
    <div>
-    <h1 style={{fontSize:'LARGE'}}>
+    <h1 style={myStyle}>
 
    {greetingText}   
     </h1>
