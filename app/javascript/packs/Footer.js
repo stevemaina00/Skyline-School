@@ -4,6 +4,10 @@ import ReactDOM from 'react-dom';
 
 function Footer(){
   const myStyle = {
+    position:'absolute',
+left:'0',
+bottom:'0',
+right:'0',
     backgroundColor: "#454545",
     boxSizing: "border-box",
   fontFamily: 'Poppins', 
@@ -42,8 +46,9 @@ function Footer(){
       <p>Help Desk</p>
       <p>Forums</p>
     </div>
+    
   </div>
-  <p className='copy'>@All rights deserved,terms and condition applied.</p>
+ 
   </div>
       
   )

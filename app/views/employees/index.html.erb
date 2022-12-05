@@ -3,8 +3,7 @@
 <div id="timer">
     <%= javascript_pack_tag 'Timer' %></div>  
     <br />
-    <div id="footer">
-    <%= javascript_pack_tag 'Footer' %></div>  
+ 
     <br />
     
 <% if user_signed_in? %>
@@ -29,7 +28,8 @@
       <%# <td><%= link_to 'Show', employee%></td>
     </p>
   <% end %>
-  
+    <div id="footer">
+    <%= javascript_pack_tag 'Footer' %></div>   
 </div>
 
 
@@ -38,5 +38,6 @@
 <h1>Welcome Aboard!&#128512;</h1>
 <%end%>
 
-
+   <div id="footer">
+    <%= javascript_pack_tag 'Footer' %></div>  
  
