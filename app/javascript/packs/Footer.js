@@ -9,18 +9,18 @@ function Footer(){
     bottom:'0',
     right:'0',
   
-    // backgroundColor: "rgba(0, 0, 0, 0.2)"
+    backgroundColor: "#000000"
   
   }
   
   return (
-    <div className="bg-dark text-center text-lg-start">
-        <div className="text-center p-3 bg-dark text-light" style={myStyle}>
+
+        <div className="text-center p-3 text-light" style={myStyle}>
     © 2020 Copyright:
-    <a className="text-light">MDBootstrap.com</a>
+    <a className="text-light">SkylineSchool.com</a>
   </div>
 
-    </div>
+    
 
       
   )

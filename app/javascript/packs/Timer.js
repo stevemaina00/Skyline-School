@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 
 function Timer() {
   const myStyle={
-    color:"lightgreen"
+    color:"lightgreen",
+    fontStyle: "Poppins"
+    
   }
   
   const currentTime = new Date().getHours();
