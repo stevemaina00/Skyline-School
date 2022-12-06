@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 function Timer() {
   const myStyle={
     color:"lightgreen",
-    fontStyle: "Poppins"
+    fontStyle: "Poppins",
+    fontSize: "small"
     
   }
   
