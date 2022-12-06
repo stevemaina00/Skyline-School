@@ -10,7 +10,8 @@ gem "rails", "~> 7.0.4"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+# gem "sqlite3", "~> 1.4"
+# gem 'pg'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -19,7 +20,7 @@ gem "puma", "~> 5.0"
 gem "importmap-rails"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
+gem "turbo-rails", '~>1.0', '>=1.0.1'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
@@ -78,3 +79,4 @@ end
 gem "react-rails", "~> 2.6"
 gem "jsbundling-rails"
 gem "cssbundling-rails"
+gem "pg", "~> 1.4"
