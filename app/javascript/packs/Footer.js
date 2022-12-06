@@ -10,7 +10,7 @@ function Footer(){
   }
   
   return (
-    <div className="bg-light text-center text-lg-start">
+    <div className="bg-dark text-center text-lg-start">
         <div className="text-center p-3" style={myStyle}>
     © 2020 Copyright:
     <a className="text-dark">MDBootstrap.com</a>
