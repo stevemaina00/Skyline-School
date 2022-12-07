@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom'
 
 function Hello () {
   return(
-  <div></div>
+  <div>Hello</div>
   )
   }
 
