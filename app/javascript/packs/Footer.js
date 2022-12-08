@@ -16,7 +16,7 @@ function Footer(){
   return (
 
         <div className="text-center p-3 text-light" style={myStyle}>
-    © 2020 Copyright:
+    © 2022 Copyright:
     <a className="text-light">SkylineSchool.com</a>
   </div>
 
