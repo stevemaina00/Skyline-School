@@ -6,16 +6,15 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 
-function Hello () {
-  return(
-  <div>Hello</div>
-  )
-  }
+const Hello = props => (
+  <div>Hello {props.name}!</div>
+)
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Hello name='' />,
+    <Hello name="React" />,
     document.body.appendChild(document.createElement('div')),
   )
 })

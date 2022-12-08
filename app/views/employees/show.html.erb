@@ -1,5 +1,5 @@
 
- 
+ <body style="background-color:lightgrey;box-sizing:border-box;">>
 <div class="jumbotron">
   <h1 class="display-4"><%= @employee.first_name%>
   <%= @employee.last_name%></h1>
@@ -14,3 +14,4 @@
 </div>
 
  <%= button_to "Destroy this employee", @employee, method: :delete , class:"btn btn-danger"%>
+ </body>

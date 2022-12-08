@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 function Timer() {
   const myStyle={
-    color:"red",
+ 
     fontStyle: "Poppins",
     fontSize: "medium"
     
@@ -38,4 +38,3 @@ document.addEventListener('DOMContentLoaded', () => {
     )
     setInterval(Timer, 1000) 
   })
-
