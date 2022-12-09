@@ -33,7 +33,7 @@ TECHNOLOGIES USED
 Java script
 HTML
 CSS
-Ruby on Rails
+Ruby 
 Sinatra
 Active Record
 
