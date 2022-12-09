@@ -15,7 +15,7 @@ function Timer() {
              // By default US English uses 12hr time with AM/PM
 const time = current.toLocaleTimeString("en-US");
   if (currentTime < 12) {
-    greetingText = "Good Morning:The time now is " + time; 
+    greetingText = "Good Morning;The time now is " + time; 
   } else if (currentTime < 18) {
     greetingText = "Good Afternoon:The time now is " + time; 
   } else {

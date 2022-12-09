@@ -25,7 +25,7 @@ This is a single page full-stack CRUD application that has a back-end that was c
 
 
 Running it on local environment
-run bundle install to install all dependencies then run rails or bundle exec puma -C config/puma.rb -b tcp://127.0.0.1:3002 to start the server.
+run bundle install to install all dependencies then run rails s to start the server.
 
 
 TECHNOLOGIES USED
@@ -34,6 +34,7 @@ Java script
 HTML
 CSS
 Ruby 
+Rails
 Sinatra
 Active Record
 
