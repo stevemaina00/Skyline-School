@@ -10,7 +10,7 @@ import Footer from './Footer'
 
 const App = props => (
   <div>
-    <h1>Hello {props.name}!</h1>
+    <h1>Welcome Aboard! {props.name}!</h1>
     <Timer />
     <Footer />
       </div>
