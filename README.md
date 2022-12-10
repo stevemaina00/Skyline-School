@@ -21,7 +21,7 @@ Description Installation Requirement Technology Used Reference Licence Authors I
 Requirements Either a computer,phone,tablet or an I pad An access to the Internet Installation Process Go Back to the top
 
 Description of App
-This is a single page full-stack CRUD application that has a back-end that was creating using Ruby and a sinatra API which stores data. It is a monolithic application whereby you can find the react code in the client folder
+This is a single page full-stack CRUD application that has a back-end that was creating using Ruby and a sinatra API which stores data. It is a monolith application whereby you can find the react code in the client folder
 
 
 Running it on local environment
